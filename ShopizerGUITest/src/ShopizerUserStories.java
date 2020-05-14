@@ -26,13 +26,13 @@ public class ShopizerUserStories {
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//span[contains(text(),'My Account')]")).click();
         driver.findElement(By.xpath("//li[@id='customerAccount']//li[1]//a[1]")).click();
-        driver.findElement(By.xpath("//input[@id='firstName']")).sendKeys("MyYellowTeam10");
-        driver.findElement(By.xpath("//input[@id='lastName']")).sendKeys("Sprintteam");
+        driver.findElement(By.xpath("//input[@id='firstName']")).sendKeys("MyYellowTeam15");
+        driver.findElement(By.xpath("//input[@id='lastName']")).sendKeys("Sprintteam15");
         driver.findElement(By.xpath("//select[@id='registration_country']")).sendKeys("Australia");
         driver.findElement(By.xpath("//select[@id='customer_zones']")).sendKeys("Western Australia");
-        driver.findElement(By.xpath("//input[@id='emailAddress']")).sendKeys("MyTeamyellow7@gmail.com");
-        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("iths123@");
-        driver.findElement(By.xpath("//input[@id='passwordAgain']")).sendKeys("iths123@");
+        driver.findElement(By.xpath("//input[@id='emailAddress']")).sendKeys("MyTeamyellow15@gmail.com");
+        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("iths1215@");
+        driver.findElement(By.xpath("//input[@id='passwordAgain']")).sendKeys("iths1215@");
         driver.findElement(By.xpath("//button[@class='btn btn-default login-btn']")).click();
     }
 
